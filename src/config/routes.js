@@ -1,0 +1,23 @@
+export default {
+  signIn: "/signin",
+  dashboard: "/",
+  discharge: "/?route=discharge",
+  consumerContract: "/?route=consumer_contract",
+  nursingAssessment: "/?route=nursing_assessment",
+  fax: "/?route=fax",
+  planOfCare: "/?route=plan_of_care",
+  patientEmergency: "/?route=patient_emergency",
+  consumerApplication: "/consumer_application",
+  consumerApplicationLoggedInApplication: "/consumer_application/application",
+  changeConsumerPassword: "/consumer_application/change_password",
+  aidApplication: "/aid_application",
+  generatePDF: "/?route=generate_pdf",
+  nursingAssessmentRead: "/nursing_assessment",
+  patientEmergencyRead: "/patient_emergency",
+  planOfCareRead: "/plan_of_care",
+  patientEmergencyForAid: "/aid_application" + "?route=patient_emergency",
+  planOfCareForAid: "/aid_application" + "?route=plan_of_care",
+  patientEmergencyForConsumer:
+    "/consumer_application" + "?route=patient_emergency",
+  planOfCareForConsumer: "/consumer_application" + "?route=plan_of_care",
+};
